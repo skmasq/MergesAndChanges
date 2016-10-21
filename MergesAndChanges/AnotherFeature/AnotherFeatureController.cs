@@ -12,7 +12,14 @@ namespace MergesAndChanges.Controllers
         // GET: /AnotherFeature/
         public ActionResult Index()
         {
+            var someAdditionalVar = "Test";
             var anotherVariable = 2;
+            return View();
+        }
+
+        public ActionResult ChangesInChangeContentBranch()
+        {
+            
             return View();
         }
 	}
