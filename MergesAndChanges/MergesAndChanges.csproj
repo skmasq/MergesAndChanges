@@ -132,7 +132,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AndAnotherFeatureController.cs" />
-    <Compile Include="Controllers\AnotherFeatureController.cs" />
+    <Compile Include="AnotherFeature\AnotherFeatureController.cs" />
     <Compile Include="Feature\FeatureController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

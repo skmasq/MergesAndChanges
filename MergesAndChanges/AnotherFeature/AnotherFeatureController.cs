@@ -12,6 +12,7 @@ namespace MergesAndChanges.Controllers
         // GET: /AnotherFeature/
         public ActionResult Index()
         {
+            var anotherVariable = 2;
             return View();
         }
 	}
