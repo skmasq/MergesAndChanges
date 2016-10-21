@@ -19,5 +19,9 @@ namespace MergesAndChanges.Controllers
         {
             return View();
         }
+        public ActionResult ChangesOnController()
+        {
+            return View();
+        }
 	}
 }
