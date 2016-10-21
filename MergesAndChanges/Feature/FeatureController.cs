@@ -15,6 +15,9 @@ namespace MergesAndChanges.Controllers
             return View();
         }
 
-
+        public ActionResult AdditionalChangeWhenMoving()
+        {
+            return View();
+        }
 	}
 }
